@@ -15,8 +15,8 @@ body:
       label: This bug relates to GSPro Connect only (not the game itself)
       description: GSPro Flightscope connect bugs only confirmation
       options:
-        - Yes
-        - No (please raise your bug with GSPro support)
+        - 'Yes'
+        - 'No (please raise your bug with GSPro support)'
     validations:
       required: true
   - type: input
