@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please complete the following form to log your feature request form. |
+        Please complete the following form to log your feature request form.
         Note: GSPro aims to provide the most realistic simulation environment, request to manipulate ball data will not be considered
   - type: dropdown
     id: gspro-connect-only
