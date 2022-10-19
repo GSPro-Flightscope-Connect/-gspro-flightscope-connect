@@ -1,20 +1,61 @@
----
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
-assignees: ''
-
----
-
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
-
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
-
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
-
-**Additional context**
-Add any other context or screenshots about the feature request here.
+name: GSPro Flightscope Connect Feature Request
+description: Method for requesting new GSPro Flightscope Connect Features or enhancements
+title: "[FEAT]:"
+labels: ["feature","gspro"]
+assignees: 
+  - tnbozman
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please complete the following form to log your feature request form. |
+        Note: GSPro aims to provide the most realistic simulation environment, request to manipulate ball data will not be considered
+  - type: dropdown
+    id: gspro-connect-only
+    attributes:
+      label: This feature request relates to GSPro Connect only (not the game itself)
+      description: GSPro Flightscope connect only confirmation
+      options:
+        - 'Yes'
+        - 'No (please raise your request with GSPro support)'
+    validations:
+      required: true
+  - type: dropdown
+    id: gspro-no-manipulation
+    attributes:
+      label: Request does not require ball data manipulation
+      description: Request does not require the ball data to be manipulated
+      options:
+        - 'Yes'
+        - 'No'
+    validations:
+      required: true
+  - type: input
+    id: feat-name
+    attributes:
+      label: Feature name
+      description: Feature name
+    validations:
+      required: true
+  - type: textarea
+    id: feat-description
+    attributes:
+      label: Feature description
+      description: Provide a description for your feature request
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: feat-solution
+    attributes:
+      label: Solution details
+      description: Provide your solution ideas (this is not required)
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: bug-additional
+    attributes:
+      label: Additional information
+      description: Add any other context about the problem here
+      render: shell
