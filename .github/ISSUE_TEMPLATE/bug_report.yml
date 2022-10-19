@@ -1,9 +1,11 @@
 name: GSPro Flightscope Connect Bug report
 description: Method of reporting GSPro Flightscope Connect Bugs
-title: "[Bug]:"
+title: "[Bug]: Replace with bug report title (please leave [Bug]:)"
 labels: ["bug","gspro"]
 assignees: 
   - tnbozman
+  - MrPowersSA
+  - dmetzendorf
 body:
   - type: markdown
     attributes:
@@ -22,8 +24,8 @@ body:
   - type: input
     id: gspro-version
     attributes:
-      label: GSPro Version
-      description: Version of GSPro you are experiencing the bug
+      label: GSPro Connect Version
+      description: Open GSProV1Connect.dat with a text editor at the root installation directory of GSPro to find the version 
     validations:
       required: true
   - type: textarea
@@ -61,4 +63,3 @@ body:
     attributes:
       label: Additional information
       description: Add any other context about the problem here
-      render: shell
