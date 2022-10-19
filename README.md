@@ -4,7 +4,7 @@ This project exists to coordinate flightscope user feedback for GSPro Flightscop
 The aim is to advocate for the GSPro flightscope user base through the issues raised against this project to the GSPro software development team.
 
 # How to raise an issue
-Go to the issues page for this repository [here](https://github.com/GSPro-Flightscope-Connect/gspro-flightscope-connect/issues) where you can raise a bug or new feature request.
+Go to the issues page for this repository [here](https://github.com/GSPro-Flightscope-Connect/gspro-flightscope-connect/issues/new/choose) where you can raise a bug or new feature request.
 
 Rules:
 - Limit issues to the GSPro Flightscope Connect interface only (this is not the appropriate method of raising issues against the GSPro Game - these issue will be immediately closed)
