@@ -4,6 +4,8 @@ title: "[Feat]: Replace with feature request title (please leave [Feat]:)"
 labels: ["feature","gspro"]
 assignees: 
   - tnbozman
+  - dmetzendorf
+  - MrPowersSA
 body:
   - type: markdown
     attributes:
