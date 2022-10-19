@@ -30,13 +30,6 @@ body:
         - 'No'
     validations:
       required: true
-  - type: input
-    id: feat-name
-    attributes:
-      label: Feature name
-      description: Feature name
-    validations:
-      required: true
   - type: textarea
     id: feat-description
     attributes:
